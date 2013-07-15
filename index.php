@@ -26,6 +26,10 @@
   <h1><a href="http://emmmmmm.com">love (r)emmmmmm</a></h1>
   
   <p>
+      <b>Why?</b> px is not responsive and (r)em is. 
+  </p>
+  
+  <p>
       on <a href="https://github.com/4ae9b8/emmmmmm" target="_blank">GitHub</a>
   </p>
   
