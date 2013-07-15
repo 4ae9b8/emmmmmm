@@ -24,6 +24,16 @@
 <div class="wrapper">
   <h2>px suck</h2>
   <h1><a href="http://emmmmmm.com">love (r)emmmmmm</a></h1>
+  
+  <p>
+      on <a href="https://github.com/4ae9b8/emmmmmm" target="_blank">GitHub</a>
+  </p>
+  
+  <p>
+      2013 by <a href="https://twitter.com/TimPietrusky" target="_blank">Tim Pietrusky</a> (<a href="https://twitter.com/4ae9b8" target="_blank">@4ae9b8</a>)</a>
+  </p> 
+  
+
 </div>
    
 </body>
