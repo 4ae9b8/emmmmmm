@@ -1,0 +1,54 @@
+@import "compass";
+@import url(http://fonts.googleapis.com/css?family=Fauna+One);
+
+$color-alpha: #c00;
+
+%center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  @include transform (translate(-50%, -50%));
+} 
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font: 1em 'Fauna One', sans-serif;
+  overflow:hidden;
+}
+
+.wrapper {
+  @extend %center;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  white-space: nowrap;
+}
+
+h2 {
+  margin: 0 0 .25em 0;
+  font-weight: normal;
+  text-decoration:line-through;
+}
+
+a {
+  text-decoration: none;
+  color: $color-alpha;
+  
+  @include transition(
+    background .25s ease-in-out,
+    color .25s ease-in-out
+  );
+  
+  &:hover {
+    background: $color-alpha;
+    color: #fff;
+  }
+}
