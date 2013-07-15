@@ -1,5 +1,11 @@
 @import "compass";
-@import url(http://fonts.googleapis.com/css?family=Fauna+One);
+
+@font-face {
+  font-family: 'Fauna One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fauna One'), local('FaunaOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/faunaone/v1/cSd7NBXNFQWK4oX1706dYz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
 
 $color-alpha: #c00;
 
