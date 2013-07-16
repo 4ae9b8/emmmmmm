@@ -1,3 +1,4 @@
+<?php header('Content-type: text/html; charset=utf-8'); ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -30,16 +31,19 @@
   </p>
   
   <p>
-      on <a href="https://github.com/4ae9b8/emmmmmm" target="_blank">GitHub</a>
+      Read more on my <a href="http://timpietrusky.com/i-love-r-emmmmmm-because-px-suck" target="_blank">blog</a>.
   </p>
   
   <p>
       2013 by <a href="https://twitter.com/TimPietrusky" target="_blank">Tim Pietrusky</a> (<a href="https://twitter.com/4ae9b8" target="_blank">@4ae9b8</a>)</a>
   </p> 
-  
-
 </div>
    
+   
+<a href="https://github.com/4ae9b8/emmmmmm" class="ribbon ribbon--bottom-right ribbon__beta" target="_blank">
+  Fork me on GitHub
+</a>
+
 </body>
 
 <script src="js/emmmmmm.js"></script>

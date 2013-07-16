@@ -1,0 +1,122 @@
+// Vertical space between ribbon and screen
+$unit-alpha: .75em;
+// Horizontal space between ribbon and screen
+$unit-beta: .75em;
+// Padding for the ribbon
+$unit-gamma: .5em;
+// Font-size for the ribbon on big screens
+$unit-delta: 1.20em;
+// Font-size for the ribbon on small screens
+$unit-epsilon: 1em;
+
+/*
+ * Colors
+ */
+$color-alpha: #3498db;
+$color-beta: #2980b9;
+$color-gamma: #3498db;
+$color-delta: #c0392b;
+$color-epsilon: #2ecc71;
+$color-zeta: #27ae60;
+$color-eta: #e67e22;
+$color-theta: #d35400;
+$color-iota: #fff;
+
+/*
+ * Basic styles for the ribbon__modifiers
+ */
+%ribbon__epsilon {
+  color: $color-iota;
+
+  @include transition(
+    color .25s ease-in,
+    background .25s ease-in
+  );
+  
+  &:hover {
+    background: $color-iota;
+  }
+}
+
+/* 
+ * GitHub ribbon base class
+ */
+.ribbon {
+  position: absolute;
+  padding: $unit-gamma;
+  font-size: $unit-delta;
+  font-weight: 700;
+  text-decoration: none;
+  
+  @media (max-width: 44em) { 
+    font-size: $unit-epsilon;
+  }
+  
+  /* 
+   * Position of the ribbon
+   */
+  &.ribbon--top-left {
+    top: $unit-alpha;
+    left: $unit-beta;
+  }
+  
+  &.ribbon--top-right {
+    top: $unit-alpha;
+    right: -$unit-beta;
+    padding-right: $unit-beta * 2;
+  }
+  
+  &.ribbon--bottom-left {
+    bottom: $unit-alpha;
+    left: $unit-beta;
+  }
+  
+  &.ribbon--bottom-right {
+    bottom: $unit-alpha;
+    right: -$unit-beta;
+    padding-right: $unit-beta * 2;
+  }
+  
+  /* 
+   * Style for the ribbon
+   */
+  &.ribbon__alpha {
+    @extend %ribbon__epsilon;
+  
+    background: $color-alpha;
+  
+    &:hover {
+      color: $color-alpha;
+    }
+  }
+  
+  &.ribbon__beta {
+    @extend %ribbon__epsilon;
+  
+    background: $color-gamma;
+  
+    &:hover {
+      color: $color-gamma;
+    }
+  }
+  
+  &.ribbon__gamma {
+    @extend %ribbon__epsilon;
+
+    background: $color-epsilon;
+  
+    &:hover {
+      color: $color-epsilon;
+    }
+  }
+  
+  &.ribbon__delta {
+    @extend %ribbon__epsilon;
+  
+    background: $color-eta;
+  
+    &:hover {
+      color: $color-eta;
+    }
+  }
+}
