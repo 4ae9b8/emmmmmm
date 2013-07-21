@@ -24,14 +24,10 @@
 
 <div class="wrapper">
   <h2>px suck</h2>
-  <h1><a href="http://emmmmmm.com">love (r)emmmmmm</a></h1>
+  <h1><a href="http://timpietrusky.com/i-love-r-emmmmmm-because-px-suck">love (r)emmmmmm</a></h1>
   
   <p>
-      <b>Why?</b> px is not responsive and (r)em is. 
-  </p>
-  
-  <p>
-      Read more on my <a href="http://timpietrusky.com/i-love-r-emmmmmm-because-px-suck" target="_blank">blog</a>.
+      <b>Why?</b> Just click on the big link, dude..;D
   </p>
   
   <p>
